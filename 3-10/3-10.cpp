@@ -28,9 +28,7 @@ int spy1(int m,int n)
 int spy2(int m,int n)
 {
     int val,k;
-    if(m==n)
-        val=m;
-    else if (m>n)
+    if (m>=n)
         for (k=1;k<=n;k++)
         {
         if ((k*m)%n==0)
